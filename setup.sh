@@ -6,6 +6,9 @@
 # https://github.com/creationix/nvm
 sudo apt-get install -y git-core
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+git config --global color.ui true
+git config --global user.name 'Aniket A. Suryavanshi'
+git config --global user.email 'aniket.a.s@gmail.com'
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
