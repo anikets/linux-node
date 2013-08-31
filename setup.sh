@@ -44,3 +44,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+
+sudo apt-get install -y iptraf
+sudo apt-get install -y htop
