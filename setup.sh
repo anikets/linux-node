@@ -45,5 +45,10 @@ ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
 
-sudo apt-get install -y iptraf
-sudo apt-get install -y htop
+sudo apt-get install -y iptraf  # Internet traffic monitor
+sudo apt-get install -y htop    # Command line task manager
+sudo apt-get install gprolog    # GNU Prolog Compiler
+# Heroku
+# Redis Server
+# PostgreSQL
+# Ruby, RVM, Rails
