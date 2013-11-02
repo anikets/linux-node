@@ -48,6 +48,10 @@ ln -sf dotfiles/.emacs.d .
 sudo apt-get install -y iptraf  # Internet traffic monitor
 sudo apt-get install -y htop    # Command line task manager
 sudo apt-get install gprolog    # GNU Prolog Compiler
+# Install SWI Prolog compiler
+sudo apt-add-repository ppa:swi-prolog/devel
+sudo apt-get update
+sudo apt-get install swi-prolog
 # Heroku
 # Redis Server
 # PostgreSQL
