@@ -4,7 +4,7 @@ Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
 configure both the machine and your individual development environment as
 follows:
 
-Original repo was at https://github.com/anikets/linux-node .
+Original repo was at https://github.com/startup-class/setup.git .
 
 ```sh
 cd $HOME
