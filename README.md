@@ -4,10 +4,12 @@ Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to
 configure both the machine and your individual development environment as
 follows:
 
+Original repo was at https://github.com/anikets/linux-node .
+
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/startup-class/setup.git
+git clone https://github.com/anikets/linux-node
 ./setup/setup.sh   
 ```
 
