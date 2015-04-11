@@ -5,15 +5,15 @@
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git-core
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash
 git config --global color.ui true
 git config --global user.name 'Aniket A. Suryavanshi'
 git config --global user.email 'aniket.a.s@gmail.com'
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
-nvm install v0.10.12
-nvm use v0.10.12
+nvm install v0.10
+nvm use v0.10
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
@@ -37,7 +37,7 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/startup-class/dotfiles.git
+git clone git@github.com:anikets/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
